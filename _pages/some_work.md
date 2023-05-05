@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /recent_work/
-title: Recent work
+permalink: /some_work/
+title: Some work
 description: 
 nav: true
 nav_order: 5
