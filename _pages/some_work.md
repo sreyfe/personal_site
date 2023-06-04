@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /some_work/
-title: Some work
+permalink: /recent_work/
+title: Recent work
 description: 
 nav: true
 nav_order: 5
 ---
 
-* Spook, translated German novel by Klabund, Snuggly Books, forthcoming 2023
+* [*Spook*](https://www.snugglybooks.co.uk/spook/), translated German novel by Klabund, Snuggly Books, 2023
 
 * [*Reconstructing the Bibliography of a “Master Criminal”*](https://ingeveb.org/pedagogy/urke-nachalnik-bibliography), Bibliography of Urke Nachalnik + short essay on OCR and bibliographies, In geveb, 2023 
 
