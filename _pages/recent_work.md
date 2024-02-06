@@ -6,6 +6,8 @@ description:
 nav: true
 nav_order: 5
 ---
+* [*Urke Nachalnik on the Yiddish Stage*](https://ingeveb.org/pedagogy/urke-nachalnik-on-the-yiddish-stage), article tracing the theatrical career of Urke Nachalnik, Yiddish literature's great thief-turned-author, In geveb, 2024
+
 * [*Dovid*](https://www.yiddishbookcenter.org/discover/yiddish-translation/yiddish-south/dovid), excerpt from my current translation project, Mimi Pinzón's *Der hoyf on fentster*, Yiddish in the South, 2023
 
 * [*Spook*](https://www.snugglybooks.co.uk/spook/), translated German novel by Klabund, Snuggly Books, 2023
