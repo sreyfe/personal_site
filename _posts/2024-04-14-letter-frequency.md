@@ -1,11 +1,10 @@
 ---
 layout: post
-title: a post with github metadata
+title: Letter frequency by verse in Genesis
 date: 2024-04-14 21:01:00
-description: a quick run down on accessing github metadata.
+description: a brief exploration of letter frequency in Genesis
 tags: 
 categories: 
-
 ---
 
 A sample blog page that demonstrates the accessing of github meta data.
