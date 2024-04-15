@@ -19,7 +19,7 @@ So, is Genesis 1:1 the verse with the highest frequency of א? Nope, it's in 13t
 
 - the top-four verses in terms of פ-frequency are all from Genesis 36, owing to the repetition of אלוף.
 
-- The verse with the highest frequency of ט (36:22), has a frequency of only 0.060606, the lowest of any letter. ז follows with 0.062500 (25:29).
+- The verse with the highest frequency of ט (36:22), has a frequency of only 0.060606, the lowest of any letter. ז follows with 0.062500 (25:29). The letter with the highest frequency in a single verse is י, with 1:23 and 1:19 both having a frequency of 0.318181.
 
 Below is a table indicating the verse with the highest frequency of a single letter. For a JSON with all this data, see the counts.json file [in this repo](https://github.com/sreyfe/hebrew_bible_frequencies).
 
