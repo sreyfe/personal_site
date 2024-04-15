@@ -1,37 +1,186 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://sreyfe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sreyfe.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-04-14T18:16:20+00:00</updated><id>https://sreyfe.github.io/feed.xml</id><title type="html">blank</title><subtitle>My personal site.
-</subtitle><entry><title type="html">Letter frequency by verse in Genesis</title><link href="https://sreyfe.github.io/blog/2024/letter-frequency/" rel="alternate" type="text/html" title="Letter frequency by verse in Genesis" /><published>2024-04-14T21:01:00+00:00</published><updated>2024-04-14T21:01:00+00:00</updated><id>https://sreyfe.github.io/blog/2024/letter-frequency</id><content type="html" xml:base="https://sreyfe.github.io/blog/2024/letter-frequency/"><![CDATA[<p>A sample blog page that demonstrates the accessing of github meta data.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://sreyfe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sreyfe.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-04-15T08:47:09+00:00</updated><id>https://sreyfe.github.io/feed.xml</id><title type="html">blank</title><subtitle>My personal site.
+</subtitle><entry><title type="html">Letter frequency by verse in Genesis</title><link href="https://sreyfe.github.io/blog/2024/letter-frequency/" rel="alternate" type="text/html" title="Letter frequency by verse in Genesis" /><published>2024-04-15T10:50:00+00:00</published><updated>2024-04-15T10:50:00+00:00</updated><id>https://sreyfe.github.io/blog/2024/letter-frequency</id><content type="html" xml:base="https://sreyfe.github.io/blog/2024/letter-frequency/"><![CDATA[<p>The other morning, still half-asleep, addled by a recent interest in the Masora and participation in the very interesting <a href="https://www.mmz-potsdam.de/aktuelles/veranstaltungen/2024/the-value-of-the-digital-dhjewish-conference-and-hackathon">DHJewish conference</a> in Potsdam, I thought to myself: “you know, there’s been a lot said about the Hebrew Bible beginning with ב and not with א, but aren’t there a lot of א’s in Genesis 1:1 anyway? There’s one in every word except השמים… Maybe Genesis 1:1 is actually the verse in Genesis with the highest frequency of א…”</p>
 
-<h2 id="what-does-github-metadata-do">What does Github-MetaData do?</h2>
+<p>In order to check this, I took the unvocalized text of Genesis from Sefaria. For each verse, I divided the occurence of each letter by the total number of letters in the verse (treating final and non-final as the same letter). This gave me a measure of frequency, which I then ranked.</p>
+
+<p>So, is Genesis 1:1 the verse with the highest frequency of א? Nope, it’s in 13th place. Nonetheless, this little investigation turned up some interesting patterns. With the caveats that modern verse divisions are a pretty late addition, and short verses are over-represented, here are some of the more interesting ones:</p>
 
 <ul>
-  <li>Propagates the site.github namespace with repository metadata</li>
-  <li>Setting site variables :
-    <ul>
-      <li>site.title</li>
-      <li>site.description</li>
-      <li>site.url</li>
-      <li>site.baseurl</li>
-    </ul>
+  <li>
+    <p>ג and ד are most frequent in the same verse: 49:19, wherein Jacob gives a prophecy for his son Gad (גד), punning repeatedly on his name.</p>
   </li>
-  <li>Accessing the metadata - duh.</li>
-  <li>Generating edittable links.</li>
+  <li>
+    <p>four out of five of the top-five verses for י are in Genesis 1. We can attribute this at least partly to the formulaic ויהי ערב ויהי בקר and the yuddiness of ordinal numbers (חמישי, רביעי). But 1:6, which is in 5th place, has neither ויהי ערב ויהי בקר nor ordinal numbers. Neither does 1:8, which is in 6th place… Perhaps the frequency of י here can be attributed to all the jussives, plus the repeated presence of “elohim?” Considering the importance of י, this one’s a little spooky… It would be interesting to see if Genesis 1 was the chapter with the highest י frequency. A task for another day…</p>
+  </li>
+  <li>
+    <p>the top-four verses in terms of פ-frequency are all from Genesis 36, owing to the repetition of אלוף.</p>
+  </li>
+  <li>
+    <p>The verse with the highest frequency of ט (36:22), has a frequency of only 0.060606, the lowest of any letter. ז follows with 0.062500 (25:29).</p>
+  </li>
 </ul>
 
-<h2 id="additional-reading">Additional Reading</h2>
+<p>Below is a table indicating the verse with the highest frequency of a single letter. For a JSON with all this data, see the counts.json file <a href="https://github.com/sreyfe/hebrew_bible_frequencies">in this repo</a>.</p>
 
-<ul>
-  <li>If you’re recieving incorrect/missing data, you may need to perform a Github API<a href="https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md"> authentication</a>.</li>
-  <li>Go through this <a href="https://jekyll.github.io/github-metadata/">README</a> for more details on the topic.</li>
-  <li><a href="https://github.com/jekyll/github-metadata/blob/master/docs/site.github.md">This page</a> highlights all the feilds you can access with github-metadata.
-<br /></li>
-</ul>
-
-<h2 id="example-metadata">Example MetaData</h2>
-
-<ul>
-  <li>Host Name :</li>
-  <li>URL :</li>
-  <li>BaseURL :</li>
-  <li>Archived :</li>
-  <li>Contributors :</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[a brief exploration of letter frequency in Genesis]]></summary></entry></feed>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Letter</th>
+      <th>Verse (Genesis)</th>
+      <th style="text-align: right">Text</th>
+      <th>Frequency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">א</td>
+      <td>10:28</td>
+      <td style="text-align: right">ואת עובל ואת אבימאל ואת שבא</td>
+      <td>0.272727</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ב</td>
+      <td>43:1</td>
+      <td style="text-align: right">והרעב כבד בארץ</td>
+      <td>0.250000</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ג</td>
+      <td>49:19</td>
+      <td style="text-align: right">גד גדוד יגודנו והוא יגד עקב</td>
+      <td>0.181818</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ד</td>
+      <td>49:19</td>
+      <td style="text-align: right">גד גדוד יגודנו והוא יגד עקב</td>
+      <td>0.227273</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ה</td>
+      <td>7:8</td>
+      <td style="text-align: right">מן הבהמה הטהורה ומן הבהמה אשר איננה טהרה ומן העוף וכל אשר רמש על האדמה</td>
+      <td>0.267857</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ו (tie)</td>
+      <td>8:18</td>
+      <td style="text-align: right">ויצא נח ובניו ואשתו ונשי בניו אתו</td>
+      <td>0.296296</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ו (tie)</td>
+      <td>46:13</td>
+      <td style="text-align: right">ובני יששכר תולע ופוה ויוב ושמרון</td>
+      <td>0.296296</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ז</td>
+      <td>25:29</td>
+      <td style="text-align: right">ויזד יעקב נזיד ויבא עשו מן השדה והוא עיף</td>
+      <td>0.062500</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ח</td>
+      <td>5:21</td>
+      <td style="text-align: right">ויחי חנוך חמש וששים שנה ויולד את מתושלח</td>
+      <td>0.125000</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ט</td>
+      <td>36:22</td>
+      <td style="text-align: right">ויהיו בני לוטן חרי והימם ואחות לוטן תמנע</td>
+      <td>0.060606</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">י (tie)</td>
+      <td>1:23</td>
+      <td style="text-align: right">ויהי ערב ויהי בקר יום חמישי</td>
+      <td>0.318181</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">י (tie)</td>
+      <td>1:19</td>
+      <td style="text-align: right">ויהי ערב ויהי בקר יום רביעי</td>
+      <td>0.318181</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">כ</td>
+      <td>34:15</td>
+      <td style="text-align: right">אך בזאת נאות לכם אם תהיו כמנו להמל לכם כל זכר</td>
+      <td>0.171429</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ל</td>
+      <td>6:21</td>
+      <td style="text-align: right">ואתה קח לך מכל מאכל אשר יאכל ואספת אליך והיה</td>
+      <td>0.195652</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">מ</td>
+      <td>25:14</td>
+      <td style="text-align: right">ומשמע ודומה ומשא</td>
+      <td>0.285714</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">נ</td>
+      <td>9:14</td>
+      <td style="text-align: right">והיה בענני ענן על הארץ ונראתה הקשת בענן</td>
+      <td>0.218750</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ס</td>
+      <td>12:9</td>
+      <td style="text-align: right">ויסע אברם הלוך ונסוע הנגבה</td>
+      <td>0.090909</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ע</td>
+      <td>44:33</td>
+      <td style="text-align: right">ועתה ישב נא עבדך תחת הנער עבד לאדני והנער יעל</td>
+      <td>0.166667</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">פ</td>
+      <td>36:41</td>
+      <td style="text-align: right">אלוף אהליבמה אלוף אלה אלוף פינן</td>
+      <td>0.153846</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">צ</td>
+      <td>19:23</td>
+      <td style="text-align: right">השמש יצא על הארץ ולוט בא צערה</td>
+      <td>0.130435</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ק</td>
+      <td>15:19</td>
+      <td style="text-align: right">את הקיני ואת הקנזי ואת הקדמני</td>
+      <td>0.125000</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ר (tie)</td>
+      <td>9:7</td>
+      <td style="text-align: right">ואתם פרו ורבו שרצו בארץ ורבו בה</td>
+      <td>0.200000</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ר (tie)</td>
+      <td>14:6</td>
+      <td style="text-align: right">ואת החרי בהררם שעיר עד איל פארן אשר על המדבר</td>
+      <td>0.200000</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ש</td>
+      <td>5:23</td>
+      <td style="text-align: right">ויהי כל ימי חנוך חמש וששים שנה ושלש מאות שנה</td>
+      <td>0.200000</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">ת</td>
+      <td>34:9</td>
+      <td style="text-align: right">והתחתנו אתנו בנתיכם תתנו לנו ואת בנתינו תקחו לכם</td>
+      <td>0.225000</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name></name></author><summary type="html"><![CDATA[a brief look at letter frequency in Genesis]]></summary></entry></feed>
