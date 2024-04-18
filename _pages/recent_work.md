@@ -6,6 +6,8 @@ description:
 nav: true
 nav_order: 5
 ---
+* [*Pseudo-Boccaccio, Yiddish Pulp Fiction, and the Man Who Ripped Off Joyce*](https://publicdomainreview.org/essay/pseudo-boccaccio-yiddish-pulp-fiction-and-the-man-who-ripped-off-joyce/), article on a couple of stories by Pseudo-Boccaccio, published first in Yiddish by the Hebrew Publishing Company, then in English by Samuel Roth. Written with [Maria Laurids Lazzarotti](https://marialaurids.net/), The Public Domain Review, 2024
+
 * [*Papa Came Home to Sleep*](https://ingeveb.org/texts-and-translations/papa-came-home), translation from Yiddish of a short story by Mimi Pinzón about a girl in a Buenos Aires conventillo, In geveb, 2024
 
 * [*Das »ureigenste theatralische Element«*](https://doi.org/10.5281/zenodo.10698448), conference paper concerning automatic prop extraction from German dramas, Digital Humanities im deutschprachigen Raum, 2024
