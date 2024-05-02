@@ -1,5 +1,235 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://sreyfe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sreyfe.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-04-18T07:32:42+00:00</updated><id>https://sreyfe.github.io/feed.xml</id><title type="html">blank</title><subtitle>My personal site.
-</subtitle><entry><title type="html">Letter frequency by verse in Genesis</title><link href="https://sreyfe.github.io/blog/2024/letter-frequency/" rel="alternate" type="text/html" title="Letter frequency by verse in Genesis" /><published>2024-04-15T10:50:00+00:00</published><updated>2024-04-15T10:50:00+00:00</updated><id>https://sreyfe.github.io/blog/2024/letter-frequency</id><content type="html" xml:base="https://sreyfe.github.io/blog/2024/letter-frequency/"><![CDATA[<p>The other morning, still half-asleep, addled by a recent interest in the Masora and participation in the very interesting <a href="https://www.mmz-potsdam.de/aktuelles/veranstaltungen/2024/the-value-of-the-digital-dhjewish-conference-and-hackathon">DHJewish conference</a> in Potsdam, I thought to myself: “you know, there’s been a lot said about the Hebrew Bible beginning with ב and not with א, but aren’t there a lot of א’s in Genesis 1:1 anyway? There’s one in every word except השמים… Maybe Genesis 1:1 is actually the verse in Genesis with the highest frequency of א…”</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://sreyfe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sreyfe.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-05-02T13:02:51+00:00</updated><id>https://sreyfe.github.io/feed.xml</id><title type="html">blank</title><subtitle>My personal site.
+</subtitle><entry><title type="html">Letter Frequency II – Visualizations</title><link href="https://sreyfe.github.io/blog/2024/letter-frequency_2/" rel="alternate" type="text/html" title="Letter Frequency II – Visualizations" /><published>2024-05-02T10:50:00+00:00</published><updated>2024-05-02T10:50:00+00:00</updated><id>https://sreyfe.github.io/blog/2024/letter-frequency_2</id><content type="html" xml:base="https://sreyfe.github.io/blog/2024/letter-frequency_2/"><![CDATA[<p>In order to better procrastinate on my master’s thesis (an analysis of <a href="https://iberz.org/">my database of translations into Yiddish</a>), I’ve been getting into Rust and cellular automata. I have been thinking vaguely about how automata could be used to model literary production. Maybe a big bimodal graph of translators and publishers, with rules governing when publishers are born/die/survive? More to be seen…</p>
+
+<p>But I think I just like how cellular automata look. I used to throw text data into .bmp’s and see what would come out, and these representations of one dimensional cellular automata, with their strange periodicity, have a similar feel.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/cell_1-480.webp 480w,/assets/img/cell_1-800.webp 800w,/assets/img/cell_1-1400.webp 1400w,/assets/img/cell_1-2000.webp 2000w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/cell_1.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<p>Remembering, this I thought to myself: why not use these methods to take a look at the Hebrew Bible? My first idea was to convert each Hebrew letter to a numerical, then binary representation. א, as the first letter, would be 0 or 00000 as expressed in five bit binary. ב would then be 00001, ג would be 00010, all the way up through ת (10101). Final letters are encoded as their normal forms. I would then write all these binary representations to an image in the wonderful <a href="https://en.wikipedia.org/wiki/Netpbm">.pbm format</a>.</p>
+
+<p>In case you’re not familiar, .pbm, .pgm, and .ppm have ASCII formats, which makes them very human readable and fun to manipulate. A file that looks like this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>P1
+# This is an example bitmap of the letter "J"
+6 10
+0 0 0 0 1 0
+0 0 0 0 1 0
+0 0 0 0 1 0
+0 0 0 0 1 0
+0 0 0 0 1 0
+0 0 0 0 1 0
+1 0 0 0 1 0
+0 1 1 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+</code></pre></div></div>
+<p>Will end up looking like this:
+<br /><br />
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Example_of_ASCII-art_turned_into_a_bitmap_scale20.pbm.png" /></p>
+
+<p>Pretty cool, right? A five-bit, square representation of Genesis 1 encoded this way looks like this:</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/genesis_1_bw-480.webp 480w,/assets/img/genesis_1_bw-800.webp 800w,/assets/img/genesis_1_bw-1400.webp 1400w,/assets/img/genesis_1_bw-2000.webp 2000w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/genesis_1_bw.png" class=" z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<p>From left to right it reads:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>00001</td>
+      <td>10011</td>
+      <td>00000</td>
+      <td>10100</td>
+      <td>01001</td>
+      <td>10101</td>
+      <td>…</td>
+    </tr>
+    <tr>
+      <td>ב</td>
+      <td>ר</td>
+      <td>א</td>
+      <td>ש</td>
+      <td>י</td>
+      <td>ת</td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Cool as this looks (to me anyway…), our eyes are really quite ill-equipped to read any of it. If you want you can sit there and decode byte by byte, but its very difficult to find patterns. But if we introduce color, patterns start to emerge.</p>
+
+<p>So I decided to do the same basic thing but represent each of the 22 letters of the Hebrew alphabet with a different color. As luck would have it, <a href="https://gist.github.com/Myndex/997244b95d84788df96f4aab8b9edeb1">in 1965 one Kenneth Kelly defined a 22-color palette designed for maximum contrast</a>. I modified my code to use the colorful .ppm format, and began producing representations like this (read right to left):</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/genesis_1-480.webp 480w,/assets/img/genesis_1-800.webp 800w,/assets/img/genesis_1-1400.webp 1400w,/assets/img/genesis_1-2000.webp 2000w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/genesis_1.png" class="img-fluid z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<p>Genesis 1</p>
+
+<p>The letter/color key is as follows:</p>
+
+<h2 style="direction: rtl; text-align: right">
+<span style="background-color:#FDFDFD; border: solid; border-width: 1px;">א</span>
+<span style="background-color:#1d1d1d; color:white;  border: solid">ב</span>
+<span style="background-color:#ebce2b; color:white">ג</span>
+<span style="background-color:#702c8c; color:white">ד</span>
+<span style="background-color:#db6917; color:white">ה</span>
+<span style="background-color:#96cde6; color:white">ו</span>
+<span style="background-color:#ba1c30; color:white">ז</span>
+<span style="background-color:#c0bd7f; color:white">ח</span>
+<span style="background-color:#7f7e80; color:white">ת</span>
+<span style="background-color:#5fa641; color:white">י</span>
+<span style="background-color:#d485b2; color:white">כך</span>
+<span style="background-color:#4277b6; color:white">ל</span>
+<span style="background-color:#df8461; color:white">מם</span>
+<span style="background-color:#463397; color:white">נן</span>
+<span style="background-color:#e1a11a; color:white">ס</span>
+<span style="background-color:#91218c; color:white">ע</span>
+<span style="background-color:#e8e948; color:white">פף</span>
+<span style="background-color:#7e1510; color:white">צץ</span>
+<span style="background-color:#92ae31; color:white">ק</span>
+<span style="background-color:#6f340d; color:white">ר</span>
+<span style="background-color:#d32b1e; color:white">ש</span>
+<span style="background-color:#2b3514; color:white">ת</span>
+</h2>
+<p><br />
+It’s still not the easiest thing to read, but some interesting patterns emerge. As mentioned in the <a href="/blog/2024/letter-frequency/">previous blog post</a>, there are a lot of yuds in Genesis 1, and accordingly the above representation is marbled thoroughly with a <span style="background-color:#5fa641;">nice green</span>. Due to its consecutive use, vav, which is represented with <span style="background-color:#96cde6;">light blue</span>, tends to form nice, evenly spaced, diagonal striations. It also tends to be the first color in most chapters, as in Genesis 11 and 19:</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/genesis_11-480.webp 480w,/assets/img/genesis_11-800.webp 800w,/assets/img/genesis_11-1400.webp 1400w,/assets/img/genesis_11-2000.webp 2000w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/genesis_11.png" class="img-fluid z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<p>Genesis 11</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/genesis_19-480.webp 480w,/assets/img/genesis_19-800.webp 800w,/assets/img/genesis_19-1400.webp 1400w,/assets/img/genesis_19-2000.webp 2000w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/genesis_19.png" class="img-fluid z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<p>Genesis 19</p>
+
+<p>ה, in <span style="background-color:#db6917; color:white">orange</span>, is also sprinkled evenly throughout, as are <span style="background-color:#FDFDFD; border: solid; border-width: 1px;">aleph</span> and <span style="background-color:#2b3514; color:white">tav</span>. When you look at these diagrams for long enough, you can start to pick out all the את’s, which are represented by a white square followed by a dark gray-green square.</p>
+
+<p>I also decided to make representations of individual verses, in order to take a look at some of the conclusions I made last time. And, as expected, Gen 10:28 is white with <span style="border: solid; border-width: 1px;">alephs</span>:</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/10-28-480.webp 480w,/assets/img/10-28-800.webp 800w,/assets/img/10-28-1400.webp 1400w,/assets/img/10-28-2000.webp 2000w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/10-28.png" class="img-fluid z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<p>Gen 1:23 is green with <span style="background-color:#5fa641; color:white">yuds</span>:</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/1-23-480.webp 480w,/assets/img/1-23-800.webp 800w,/assets/img/1-23-1400.webp 1400w,/assets/img/1-23-2000.webp 2000w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/1-23.png" class="img-fluid z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<p>Gen 49:19, the prophecy of Gad, has sort of a jester/Lakers look, due to the high occurence of <span style="background-color:#ebce2b; color:white">gimel</span> and
+<span style="background-color:#702c8c; color:white">daled</span>.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/49-19-480.webp 480w,/assets/img/49-19-800.webp 800w,/assets/img/49-19-1400.webp 1400w,/assets/img/49-19-2000.webp 2000w," sizes="95vw" type="image/webp" />
+    
+    <img src="/assets/img/49-19.png" class="img-fluid z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<p>This approach enables an interesting mix of very close and very distant reading. It highlights the smallest unit of Hebrew (the letter), and makes it visible over large swathes of text.</p>
+
+<p>Can it help us learn anything? I’m not sure… But it sure does look cool. If you’re interested, the code and all the images are available on my <a href="https://github.com/sreyfe/hebrew_bible_frequencies/tree/main/visualizations">GitHub</a>.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[My second attempt at letter frequency, this time in Rust and with cool visualizations]]></summary></entry><entry><title type="html">Letter frequency by verse in Genesis</title><link href="https://sreyfe.github.io/blog/2024/letter-frequency/" rel="alternate" type="text/html" title="Letter frequency by verse in Genesis" /><published>2024-04-15T10:50:00+00:00</published><updated>2024-04-15T10:50:00+00:00</updated><id>https://sreyfe.github.io/blog/2024/letter-frequency</id><content type="html" xml:base="https://sreyfe.github.io/blog/2024/letter-frequency/"><![CDATA[<p>The other morning, still half-asleep, addled by a recent interest in the Masora and participation in the very interesting <a href="https://www.mmz-potsdam.de/aktuelles/veranstaltungen/2024/the-value-of-the-digital-dhjewish-conference-and-hackathon">DHJewish conference</a> in Potsdam, I thought to myself: “you know, there’s been a lot said about the Hebrew Bible beginning with ב and not with א, but aren’t there a lot of א’s in Genesis 1:1 anyway? There’s one in every word except השמים… Maybe Genesis 1:1 is actually the verse in Genesis with the highest frequency of א…”</p>
 
 <p>In order to check this, I took the unvocalized text of Genesis from Sefaria. For each verse, I divided the occurence of each letter by the total number of letters in the verse (treating final and non-final as the same letter). This gave me a measure of frequency, which I then ranked.</p>
 
