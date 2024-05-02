@@ -2,13 +2,13 @@
 layout: post
 title: Letter Frequency II -- Visualizations
 date: 2024-05-02 10:50:00
-description: My second attempt at letter frequency, this time in Rust and with cool visualizations
+description: My second look at letter frequency, this time in Rust and with cool visualizations
 tags: 
 categories: 
 ---
 In order to better procrastinate on my master's thesis (an analysis of [my database of translations into Yiddish](https://iberz.org/)), I've been getting into Rust and cellular automata. I have been thinking vaguely about how automata could be used to model literary production. Maybe a big bimodal graph of translators and publishers, with rules governing when publishers are born/die/survive? More to be seen...
 
-But I think I just like how cellular automata look. I used to throw text data into .bmp's and see what would come out, and these representations of one dimensional cellular automata, with their strange periodicity, have a similar feel.
+But I think I just like how cellular automata look. I used to throw text data into .bmp's and see what would come out, and these representations of one dimensional cellular automata, with their strange periodicities, have a similar feel.
 {% include figure.liquid path="assets/img/cell_1.png" class="img-fluid rounded z-depth-1"%} 
 
 Remembering, this I thought to myself: why not use these methods to take a look at the Hebrew Bible? My first idea was to convert each Hebrew letter to a numerical, then binary representation. א, as the first letter, would be 0 or 00000 as expressed in five bit binary. ב would then be 00001, ג would be 00010, all the way up through ת (10101). Final letters are encoded as their normal forms. I would then write all these binary representations to an image in the wonderful [.pbm format](https://en.wikipedia.org/wiki/Netpbm). 
