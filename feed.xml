@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://sreyfe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sreyfe.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-05-02T13:20:30+00:00</updated><id>https://sreyfe.github.io/feed.xml</id><title type="html">blank</title><subtitle>My personal site.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://sreyfe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sreyfe.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-05-02T14:49:15+00:00</updated><id>https://sreyfe.github.io/feed.xml</id><title type="html">blank</title><subtitle>My personal site.
 </subtitle><entry><title type="html">Letter Frequency II – Visualizations</title><link href="https://sreyfe.github.io/blog/2024/letter-frequency_2/" rel="alternate" type="text/html" title="Letter Frequency II – Visualizations" /><published>2024-05-02T10:50:00+00:00</published><updated>2024-05-02T10:50:00+00:00</updated><id>https://sreyfe.github.io/blog/2024/letter-frequency_2</id><content type="html" xml:base="https://sreyfe.github.io/blog/2024/letter-frequency_2/"><![CDATA[<p>In order to better procrastinate on my master’s thesis (an analysis of <a href="https://iberz.org/">my database of translations into Yiddish</a>), I’ve been getting into Rust and cellular automata. I have been thinking vaguely about how automata could be used to model literary production. Maybe a big bimodal graph of translators and publishers, with rules governing when publishers are born/die/survive? More to be seen…</p>
 
 <p>But I think I just like how cellular automata look. I used to throw text data into .bmp’s and see what would come out, and these representations of one dimensional cellular automata, with their strange periodicities, have a similar feel.</p>
@@ -10,8 +10,6 @@
       See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/cell_1-480.webp 480w,/assets/img/cell_1-800.webp 800w,/assets/img/cell_1-1400.webp 1400w,/assets/img/cell_1-2000.webp 2000w," sizes="95vw" type="image/webp" />
     
     <img src="/assets/img/cell_1.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -49,8 +47,6 @@
       See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/genesis_1_bw-480.webp 480w,/assets/img/genesis_1_bw-800.webp 800w,/assets/img/genesis_1_bw-1400.webp 1400w,/assets/img/genesis_1_bw-2000.webp 2000w," sizes="95vw" type="image/webp" />
     
     <img src="/assets/img/genesis_1_bw.png" class=" z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -94,8 +90,6 @@
       See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/genesis_1-480.webp 480w,/assets/img/genesis_1-800.webp 800w,/assets/img/genesis_1-1400.webp 1400w,/assets/img/genesis_1-2000.webp 2000w," sizes="95vw" type="image/webp" />
     
     <img src="/assets/img/genesis_1.png" class="img-fluid z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -142,8 +136,6 @@ It’s still not the easiest thing to read, but some interesting patterns emerge
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/genesis_11-480.webp 480w,/assets/img/genesis_11-800.webp 800w,/assets/img/genesis_11-1400.webp 1400w,/assets/img/genesis_11-2000.webp 2000w," sizes="95vw" type="image/webp" />
-    
     <img src="/assets/img/genesis_11.png" class="img-fluid z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
 
@@ -159,8 +151,6 @@ It’s still not the easiest thing to read, but some interesting patterns emerge
       See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/genesis_19-480.webp 480w,/assets/img/genesis_19-800.webp 800w,/assets/img/genesis_19-1400.webp 1400w,/assets/img/genesis_19-2000.webp 2000w," sizes="95vw" type="image/webp" />
     
     <img src="/assets/img/genesis_19.png" class="img-fluid z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -182,8 +172,6 @@ It’s still not the easiest thing to read, but some interesting patterns emerge
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-      <source class="responsive-img-srcset" srcset="/assets/img/10-28-480.webp 480w,/assets/img/10-28-800.webp 800w,/assets/img/10-28-1400.webp 1400w,/assets/img/10-28-2000.webp 2000w," sizes="95vw" type="image/webp" />
-    
     <img src="/assets/img/10-28.png" class="img-fluid z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
 
@@ -199,8 +187,6 @@ It’s still not the easiest thing to read, but some interesting patterns emerge
       See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/1-23-480.webp 480w,/assets/img/1-23-800.webp 800w,/assets/img/1-23-1400.webp 1400w,/assets/img/1-23-2000.webp 2000w," sizes="95vw" type="image/webp" />
     
     <img src="/assets/img/1-23.png" class="img-fluid z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
@@ -218,8 +204,6 @@ It’s still not the easiest thing to read, but some interesting patterns emerge
       See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/49-19-480.webp 480w,/assets/img/49-19-800.webp 800w,/assets/img/49-19-1400.webp 1400w,/assets/img/49-19-2000.webp 2000w," sizes="95vw" type="image/webp" />
     
     <img src="/assets/img/49-19.png" class="img-fluid z-depth-1" width="100%" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
