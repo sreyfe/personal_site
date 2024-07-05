@@ -49,7 +49,7 @@ Victorian game in either "origin or essence." Instead, it came from an England t
 
 I've heard of this England... I think I read somewhere that in pre-Victorian Europe, England was once considered an
 emotional, choleric nation, like Italy today. James asserts that Dickens is really a pre-Victorian, and this is what allowed
-him to be such a good critic of Victorian England. But he believes that the great representative/representer of this era for James is Hazlitt.
+him to be such a good critic of Victorian England. But he believes that the great representative/representer of this era is Hazlitt.
 He writes:
 
 > Hazlitt was an intellectual to his fingertips, and a
@@ -75,8 +75,8 @@ He writes:
 I had never heard of Hazlitt before James, like I had never heard of Browne before Borges. It's always nice to get a recommendation
 from a good writer, and it didn't take long before I'd found *The Fight* and read it. It really is very good, and I have reproduced
 it at the end of this post, for your reading pleasure, from the [12th volume of Project Gutenberg's Collected Works of William Hazlitt](https://www.gutenberg.org/ebooks/72206).
-What is good about is what I think is good about good essays in general: total contingency. In *The Fight*, Hazlitt is driven about 
-by circumstance, and it is also circumstance that informs his style or, as he might call it, FANCY. The essay makes no
+What is good about it is what I think is good about good essays in general: contingency. In *The Fight*, Hazlitt is driven about 
+by circumstance, and it is also circumstance or, as he might call it, FANCY, that informs his style. The essay makes no
 claim to essential knowledge. Instead, it moves lightly from from idea to idea, always acknowledging the particular position of the
 writer/narrator as he moves from London to the country by mail-coach and back again. This is what's good about *Beyond a Boundary*
 too. "Neither cricket reminiscences nor autobiography," it revels in its contingency.
