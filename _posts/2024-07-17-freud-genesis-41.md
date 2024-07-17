@@ -14,7 +14,7 @@ years of Freud's life. He began to prepare the last of the three essays in Vienn
 to publish it after fleeing to England following the German invasion of Austria.
 
 In case you aren't familiar, this is Freud's claim in a nutshell: Moses was never 
-a Jew at all, but a high-ranking Egyptian who loyal to the monotheistic cult which 
+a Jew at all, but a high-ranking Egyptian who was loyal to the monotheistic cult which 
 worshipped the sun god Aten, which was briefly the state religion of Egypt under 
 Akhenaten. After Akhenaten's death and the official reestablishment of polytheism, Moses 
 decided to leave Egypt. He brought with him a Semitic tribe
@@ -57,7 +57,7 @@ grain, both of which are so excellently illustrated by R. Crumb (below).
 {% include figure.liquid path="assets/img/crumb_gen_41.jpg" class="img-fluid z-depth-1" zoomable=true%} 
 
 As part of his reward for successfully interpreting Pharaoh's dreams, in verse 45 
-Joseph is married to Asenath, daughter of Poti-phera, *priest of On*. [^1] Hebrew:
+Joseph is married to Asenath, daughter of Poti-phera, *priest of On*. [^1]
 On (aka Heliopolis) is mentioned repeatedly by Freud as the place of origin of 
 the monotheistic worship of Aten which the Egyptian Moses practiced
 and semi-successfully transmitted to his chosen Semitic tribe.
