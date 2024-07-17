@@ -26,7 +26,7 @@ along with him. At some point a couple of generations later, the proto-Jews take
 of a Midianite volcano-god named \[ʀᴇᴅᴀᴄᴛᴇᴅ\], under the direction of an unnamed
 prophet. But the Moses-followers had grown in number and influence during the 
 intervening generations, and so a compromise was made between them and the followers 
-of the volcano-god. The new prophet was identified was Moses, and the attributes of
+of the volcano-god. The new prophet was identified with Moses, and the attributes of
 \[ʀᴇᴅᴀᴄᴛᴇᴅ\] and Aten were melted together. The murder of Moses then has all manner 
 of psychoanalytic effects, sets the scene for Christianity, etc.
 
