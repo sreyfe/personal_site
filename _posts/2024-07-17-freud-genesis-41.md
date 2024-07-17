@@ -13,8 +13,8 @@ The volume (published in English as *Moses and Monotheism*) contains three essay
 years of Freud's life. He began to prepare the last of the three essays in Vienna, but only managed
 to publish it after fleeing to England following the German invasion of Austria.
 
-In case you aren't familiar, this is Freud's claim in a nutshell: Moses was never 
-a Jew at all, but a high-ranking Egyptian who was loyal to the monotheistic cult which 
+In case you aren't familiar, this is Freud's claim in a nutshell: Moses existed, but he was never 
+a Jew. Instead, he was a high-ranking Egyptian who was loyal to a monotheistic cult which 
 worshipped the sun god Aten, which was briefly the state religion of Egypt under 
 Akhenaten. After Akhenaten's death and the official reestablishment of polytheism, Moses 
 decided to leave Egypt. He brought with him a Semitic tribe
@@ -47,10 +47,10 @@ the article, but apparently, there is evidence in *Hosea* and elsewhere that Mos
 was killed by the Israelites during one of their many (biblically documented) uprisings.
 Here is Freud on Sellin:
 
->Er fand beim Propheten Hosea (zweite Hälfte des achten Jahrhunderts) die unverkennbaren Anzeichen einer Tradition, die zum Inhalt hat, daß der Religionsstifter Moses in einem Aufstand seines widerspenstigen und halsstarrigen Volkes ein gewaltsames Ende fand. Gleichzeitig wurde die von ihm eingesetzte Religion abgeworfen. Diese Tradition ist aber nicht auf Hosea beschränkt, sie kehrt bei den meisten späteren Propheten wieder, ja, sie ist nach Sellin die Grundlage aller späteren messianischen Erwartungen geworden. Am Ausgang des babylonischen Exils entwickelte sich im jüdischen Volke die Hoffnung, der so schmählich Gemordete werde von den Toten wiederkommen und sein reuiges Volk, vielleicht dieses nicht allein, in das Reich einer dauernden Seligkeit führen. Die naheliegenden Beziehungen zum Schicksal eines späteren Religionsstifters liegen nicht auf unserem Weg.
+>Er fand beim Propheten Hosea (zweite Hälfte des achten Jahrhunderts) die unverkennbaren Anzeichen einer Tradition, die zum Inhalt hat, daß der Religionsstifter Moses in einem Aufstand seines widerspenstigen und halsstarrigen Volkes ein gewaltsames Ende fand. Gleichzeitig wurde die von ihm eingesetzte Religion abgeworfen. Diese Tradition ist aber nicht auf Hosea beschränkt, sie kehrt bei den meisten späteren Propheten wieder, ja, sie ist nach Sellin die Grundlage aller späteren messianischen Erwartungen geworden. Am Ausgang des babylonischen Exils entwickelte sich im jüdischen Volke die Hoffnung, der so schmählich Gemordete werde von den Toten wiederkommen und sein reuiges Volk, vielleicht dieses nicht allein, in das Reich einer dauernden Seligkeit führen. Die naheliegenden Beziehungen zum Schicksal eines späteren Religionsstifters liegen nicht auf unserem Weg. [^1]
 
-Now, like I said, I don't believe in this stuff, but nonetheless I think I've found 
-a nice piece of evidence for it which Freud doesn't mention. Last night I thought that 
+Now, like I said, I don't really believe this stuff, but nonetheless I think I've found 
+a nice piece of evidence for Freud's claims which he doesn't mention. Last night I thought that 
 it might be fun to read a random chapter of Genesis every day, and so today I put
 the range 1-50 in a random number generator, got 41 as output, and sat down to 
 read Genesis 41. This is the chapter where Joseph interprets Pharaoh's dreams:
@@ -60,7 +60,7 @@ grain, both of which are so excellently illustrated by R. Crumb (below).
 {% include figure.liquid path="assets/img/crumb_gen_41.jpg" class="img-fluid z-depth-1" zoomable=true%} 
 
 As part of his reward for successfully interpreting Pharaoh's dreams, in verse 45 
-Joseph is married to Asenath, daughter of Poti-phera, *priest of On*. [^1]
+Joseph is married to Asenath, daughter of Poti-phera, *priest of On*. [^2]
 On (aka Heliopolis) is mentioned repeatedly by Freud as the place of origin of 
 the monotheistic worship of Aten which the Egyptian Moses practiced
 and semi-successfully transmitted to his chosen Semitic tribe.
@@ -73,6 +73,14 @@ When coupled with the Traumdeutung which plays such a significant role in this c
 very strange that Freud left this out. I wonder if he knew of this chapter 
 and, if so, what he thought of it...
 
+Before I go, there's a passage in the second essay that's particularly cool:
 
+>Es ist gewiß, daß recht verschiedene Elemente zum Aufbau des jüdischen Volkes zusammengetreten sind, aber den größten Unterschied unter diesen Stämmen muß es gemacht haben, ob sie den Aufenthalt in Ägypten, und was darauf folgte, miterlebt hatten oder nicht. Mit Rücksicht auf diesen Punkt kann man sagen, die Nation sei aus der Vereinigung von zwei Bestandteilen hervorgegangen, und dieser Tatsache entsprach es, daß sie auch nach einer kurzen Periode politischer Einheit in zwei Stücke, das Reich Israel und das Reich Juda, auseinanderbrach. Die Geschichte liebt solche Wiederherstellungen, in denen spätere Verschmelzungen rückgängig gemacht werden und frühere Trennungen wieder hervortreten. Das eindrucksvollste Beispiel dieser Art schuf bekanntlich die Reformation, als sie die Grenzlinie zwischen dem einst römisch gewesenen und dem unabhängig gebliebenen Germanien nach einem Intervall von mehr als einem Jahrtausend wieder zum Vorschein brachte. [^3]
 
-[^1]:Hebrew: וַיִּקְרָ֨א פַרְעֹ֣ה שֵׁם־יוֹסֵף֮ צָֽפְנַ֣ת פַּעְנֵ֒חַ֒ וַיִּתֶּן־ל֣וֹ אֶת־אָֽסְנַ֗ת בַּת־פּ֥וֹטִי פֶ֛רַע כֹּהֵ֥ן אֹ֖ן לְאִשָּׁ֑ה וַיֵּצֵ֥א יוֹסֵ֖ף עַל־אֶ֥רֶץ מִצְרָֽיִם׃
+Isn't that nice? Pieces of the broken vessel, fitted together and painted over 
+— but the crack is still there, just below the surface, waiting for just a 
+little more pressure...
+
+[^1]: Sigmund Freud, *Mann Moses*, Bibliothek Suhrkamp 131 (Berlin: Suhrkamp Verlag, 1970), 46-47.
+[^2]: Hebrew: וַיִּקְרָ֨א פַרְעֹ֣ה שֵׁם־יוֹסֵף֮ צָֽפְנַ֣ת פַּעְנֵ֒חַ֒ וַיִּתֶּן־ל֣וֹ אֶת־אָֽסְנַ֗ת בַּת־פּ֥וֹטִי פֶ֛רַע כֹּהֵ֥ן אֹ֖ן לְאִשָּׁ֑ה וַיֵּצֵ֥א יוֹסֵ֖ף עַל־אֶ֥רֶץ מִצְרָֽיִם׃
+[^3]: Freud, *Mann Moses*, 48 
