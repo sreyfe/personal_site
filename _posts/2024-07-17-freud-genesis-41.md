@@ -36,7 +36,10 @@ of a crackpot theory, but its very entertaining to read and good food for
 thought. Reading these essays feels a little like reading (forgive the comparison)
 Däniken: you can't really believe these fantastic claims about the
 secret origins of the world we live in, but you're glad to be along for the ride, and 
-maybe there's a little bit of truth in there somewhere...
+maybe there's a little bit of truth in there somewhere... Or, perhaps to offend in the
+other direction, Freud has written a sort of psychoanalytic Midrash which uses biblical
+and historical scholarship, along with the Hebrew Bible itself, as building blocks.
+Read as a parable, its shaky claim to historical truth becomes less important.
 
 For textual support, Freud resorts to the work of Ed. Sellin, and *Mose und seine Bedeutung 
 für die israelitisch-jüdische Religionsgeschichte* (1922) in particular. I haven't read
