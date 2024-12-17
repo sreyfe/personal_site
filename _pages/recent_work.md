@@ -11,6 +11,8 @@ p a em{
   color: var(--global-theme-color)
 }
 </style>
+* [*Towards Taytsh Data: Hermeneutic Data Labelling*](https://articulations.temporal-communities.de/contributions/towards-taytsh-data/), essay on data annotation and proscriptivism in the *Oytser* and beyond, Articulations, 2024
+
 * [*The \<foreign\> element in Yiddish*](https://doi.org/10.5281/zenodo.13883242), conference talk on the use on the complicated nature of tagging certain parts of Yiddish texts as foreign, TEI 2024
 
 * [*Sachsen oder USA, Hauptsache Orient*](https://www.nd-aktuell.de/artikel/1184939.immer-wieder-karl-may-sachsen-oder-usa-hauptsache-orient.html), review of Enis Maci and Mazlum Nergiz's book on Karl May, Neues Deutschland, 2024
