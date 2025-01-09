@@ -1,0 +1,57 @@
+
+p {
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 12px;
+}
+
+body {
+	height: 100%;
+	background-image: url("Amstrad.jpg");
+}
+
+div {
+	background-color: white;
+}
+
+.grid_container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+
+	padding-left: 3%;
+	padding-bottom: 5%;
+}
+
+.bibliography {
+	padding: 20px;
+	padding-left: 6%;
+	margin: 3%;
+	width: 87%;
+}
+
+.heading_link {
+	color: black;
+}
+
+.heading_link:visited{
+	color: black;
+}
+
+.header {
+	padding: 20px;
+	padding-left: 3%;
+}
+
+.bio {
+	padding-left: 3%;
+}
+
+.grid_container {
+	padding-right: 10px;
+}
+
+.gridlet {
+	padding-right: 30px;
+}
